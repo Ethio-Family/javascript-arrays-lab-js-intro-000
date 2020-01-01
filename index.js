@@ -17,3 +17,11 @@ function destructivelyRemoveLastKitten() {
 function destructivelyRemoveFirstKitten() {
   kittens.shift(name)
 }
+
+function appendKitten(name) {
+
+  var array1 = kittens
+  var array2 = name
+  var array3 = array1.concat(array2);
+  return array3;
+}
