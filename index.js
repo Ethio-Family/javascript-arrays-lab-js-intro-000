@@ -25,3 +25,11 @@ function appendKitten(name) {
   var array3 = array1.concat(array2);
   return array3;
 }
+
+function prependKitten(name) {
+
+  var array1 = kittens
+  var array2 = name
+  var array3 = array2.concat(array1);
+  return array3;
+}
