@@ -33,3 +33,7 @@ function prependKitten(name) {
   var array3 = array1.concat(array2);
   return array3;
 }
+
+function removeLastKitten() {
+  
+}
