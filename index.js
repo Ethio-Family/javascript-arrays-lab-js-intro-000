@@ -29,6 +29,7 @@ function appendKitten(name) {
 function prependKitten(name) {
 
   var array1 = kittens
-  array1.unshift(name)
-  return array1;
+  var array2 = name
+  var array3 = array2.concat(array1);
+  return array3;
 }
